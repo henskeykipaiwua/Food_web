@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;backdrop-filter: blur(-300px);
+}
+h3 {
+    color: #162938;
+    font-size: 1.5em;
+}
+h3 span{
+    color: #6cb840;
+}
+h1{
+    color: #6CB840;
+}
+.semi-circle{
+    height: 600px;
+    width: 600px;
+    border: 3px solid #a0ed74;
+    position: absolute;
+    border-radius: 50%;
+    left: 61%;
+    top: -250px;
+    overflow: visible;
+}
+button{
+    width: 180px;
+    height: 55px;
+    background-color: #6CB840;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: .2s;
+}
+button:hover{
+    scale: 1.01;
+    text-transform: none;
+    transition: .2s;
+}
+.street-food nav a{
+    margin: 40px;
+    text-decoration: none;
+    color: #162938;
+    font-size: 1.3em;
+}
+.street-food{
+    background-color: #b3c1d9;
+}
+.street-food p{
+    color: #162938;
+    font-size: 1.2em;
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+}
+.burgers{
+    display: flex;
+    margin: 20px;
+}
+.burger-name{
+    width: 350px;
+    height: 250px;
+    background-color: #ffffff;
+    margin: 50px;
+    border-radius: 5px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+}
+.burger-name h4{
+    text-align: center;
+}
+.burger-name img{
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.burgers-menu{
+    background-color: #b3c1d9;
+    margin: 100px;
+}
+.burgers-menu h3{
+    text-align: center;
+}
+::placeholder{
+    color: #162938;
+    font-size: 1.4em;
+}
+.eat-together{
+    display: flex;
+}
+.eat-together img{
+    width: 500px;
+    height: 420px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.eat-together p{
+    text-overflow: clip;
+    color: #162938;
+    font-size: 1.2em;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 300px;
+}
+.eat-together p b{
+    font-size: 1.4em;
+    color: #EAAB1B;
+}
+.hot-deals{
+    background-color:  #C9ECB5;
+    height: 400px;
+}
+.hot-deals h3{
+    text-align: center;
+}
+.hot-deals h1{
+    margin-left: 800px;
+}
+.hot-deals img{
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+    float: left;
+    margin-left: 200px;
+}
+.hot-deals h4{
+    font-size: 1.3em;
+    margin-left: 800px;
+}
+.hot-deals p{
+    width: 400px;
+    margin-left: 800px;
+}
+.contact-us{
+    background-color: #f2d6e8;
+}
+.contact-us input{
+    width: 700px; 
+    height: 50px; 
+    border-radius: 30px; 
+    padding: 10px;
+    border: none;
+    outline: none
+}
+.newsletter-footer{
+    background-color: #b3c1d9;
+    display: flex;
+}
+.newsletter-footer .space1{
+    width: 90px;
+    background: transparent;
+}

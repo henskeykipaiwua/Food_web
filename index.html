@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Food Website</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3 {
+    color: #162938;
+    font-size: 1.5em;
+}
+h3 span{
+    color: #6cb840;
+}
+h1{
+    color: #6CB840;
+}
+.semi-circle{
+    height: 600px;
+    width: 600px;
+    border: 2px dashed #a0ed74;
+    position: absolute;
+    border-radius: 50%;
+    left: 61%;
+    top: -250px;
+    overflow: visible;
+}
+button{
+    width: 180px;
+    height: 55px;
+    background-color: #6CB840;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: .2s;
+}
+button:hover{
+    scale: 1.01;
+    text-transform: none;
+    transition: .2s;
+}
+.street-food nav a{
+    margin: 40px;
+    text-decoration: none;
+    color: #162938;
+    font-size: 1.3em;
+}
+.street-food{
+    background-color: #b3c1d9;
+}
+.street-food p{
+    color: #162938;
+    font-size: 1.2em;
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+}
+.burgers{
+    display: flex;
+    margin: 20px;
+}
+.burger-name{
+    width: 350px;
+    height: 250px;
+    background-color: #ffffff;
+    margin: 50px;
+    border-radius: 5px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+}
+.burger-name h4{
+    text-align: center;
+}
+.burger-name img{
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.burgers-menu{
+    background-color: #b3c1d9;
+    margin: 60px;
+}
+.burgers-menu h3{
+    text-align: center;
+}
+::placeholder{
+    color: #162938;
+    font-size: 1.4em;
+}
+
+.eat-together{
+    display: flex;
+}
+.eat-together img{
+    width: 500px;
+    height: 420px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.eat-together p{
+    text-overflow: clip;
+    color: #162938;
+    font-size: 1.2em;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 300px;
+}
+.eat-together p b{
+    font-size: 1.4em;
+    color: #EAAB1B;
+}
+.hot-deals{
+    background-color:  #C9ECB5;
+    height: 400px;
+}
+.hot-deals h3{
+    text-align: center;
+}
+.hot-deals h1{
+    margin-left: 800px;
+}
+.hot-deals img{
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+    float: left;
+    margin-left: 200px;
+}
+.hot-deals h4{
+    font-size: 1.3em;
+    margin-left: 800px;
+}
+.hot-deals p{
+    width: 400px;
+    margin-left: 800px;
+}
+.contact-us{
+    background-color: #f2d6e8;
+}
+.contact-us input{
+    width: 700px; 
+    height: 50px; 
+    border-radius: 30px; 
+    padding: 10px;
+    border: none;
+    outline: none
+}
+.newsletter-footer{
+    background-color: #b3c1d9;
+    display: flex;
+}
+.newsletter-footer .space1{
+    width: 90px;
+    background: transparent;
+}
+  </style>
+</head>
+<body>
+    <!--landing page-->
+    <div class="street-food">
+        <nav>
+            <div class="semi-circle"></div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Our Menu</a>
+            <a href="#">Happy Hour</a>
+            <a href="#">Catering</a>
+            <a href="#">Reservations</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
+    
+        <!--the content-->
+        <h3 style="color: #6CB840;">Street <span style="color: #EAAB1B;">Food</span></h3>
+        <h3>We don't play with food</h3>
+        <p>
+            When I was a small boy, my father told me never to recommend a church or a woman to anyone. And I have found it wiser never to recomend a restaurant either. 
+            Something always goes wrong with the cheese souffle.
+        </p>
+        <button>Order Now</button><br><br><br><br>
+    </div>
+
+    <!--eat together-->
+    <div class="eat-together">
+        <img src="eat-together.JPG" alt="Burger with Cocktail">
+    <p>
+        <b>Eat Together</b><br>
+        There is something profoundly satisfying about sharing a meal. Eating together, breaking bread together, is one of the oldest and most fundamentally unifying of
+        human experiences.
+    </p>
+    </div>
+
+    <!--Menu-->
+    <div class="burgers-menu">
+        <h3>Explore <span>Menu</span></h3>
+    <div class="burgers">
+        <div class="burger-name">
+            <img src="chicken.jpg" alt="Grilled Chicken" width="150px" height="150px">
+            <h4>Grilled Chicken...$7</h4>
+            
+        </div>
+        <div class="burger-name">
+            <img src="chapo-samo.jpg" alt="Chapati_*_Samo" width="150px" height="150px">
+            <h4>Chapo-Samo...$0.7</h4>
+        </div>
+        <div class="burger-name">
+            <img src="burger1.jpg" alt="Hamburger" width="150px" height="150px">
+            <h4>Hamburger...$2.5</h4>
+        </div>
+    </div>
+    <div class="burgers">
+        <div class="burger-name">
+            <img src="spanish.jpg" alt="Spanish Omelette" width="150px" height="150px">
+            <h4>Spanish Omelette...$3</h4>
+        </div>
+        <div class="burger-name">
+            <img src="shawarma1.jpg" alt="Shawarma" width="150px" height="150px">
+            <h4>Turkish Shawarma...$5</h4>
+        </div>
+        <div class="burger-name">
+            <img src="lemon.jpg" alt="Lemon Juice" width="150px" height="150px">
+            <h4>Lemon Juice- Ice...$1.2</h4>
+        </div>
+    </div>
+    </div>
+
+    <!--hot deals-->
+    <div class="hot-deals">
+        <h3>Hot <span>Deals</span></h3>
+        <img src="burger-cocktail.jpg" alt="Burger With Cocktail">
+        <h1>SPECIAL COMBO PACK</h1>
+        <h4>Burger Pizz</h4>
+        <h4>Fries & Drinks</h4>
+        <p>
+            People ask me, What would you be doing without baseball? I don't know...super-sizing fries? Two Polish men at Halloween with burned faces. What happened? 
+            They were bobbing for french fries while having a passion and beetroot cocktail drink.
+        </p>
+    </div>
+
+    <!--Contact us-->
+    <div class="contact-us">
+        <center>
+            <h3>Contact <span>Us</span></h3>
+            <p>Do you mind leaving your email with us, if not please provide it below to keep in touch with us: </p>
+            <input type="email" placeholder="Email"><br><br>
+            <button>Send</button><br><br><br><br>
+        </center>
+    </div>
+    <!--newsletter-->
+    <div class="newsletter-footer">
+        <div class="days">
+            <h3>WORK-DAYS</h3>
+            <h4>Sundays- Thursdays</h4>
+            <h4>5AM- 9PM</h4>
+            <h4>Fridays- Saturdays</h4>
+            <h4>4AM- 10PM</h4>
+        </div>
+        <div class="space1"></div>
+        <div class="place-pin">
+            <h3>LOCATION</h3>
+            (254) 2633- 456 <br>
+            801 Ghetto Street | <br>
+             Majengo ZY 00100
+        </div>
+        <div class="space1"></div>
+        <div class="sign-up-news">
+            <h3>NEWSLETTER</h3>
+            Do you want the latest news and the hot deal news, sign-up to our newsletter <br>
+            <button>Sign-Up</button>
+        </div>
+    </div>
+</body>
+</html>
